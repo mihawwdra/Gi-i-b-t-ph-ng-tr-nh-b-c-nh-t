@@ -1,0 +1,19 @@
+#include <conio.h>
+#include <stdio.h>
+#include <iostream.h>
+
+void nhap(float &, float &);
+void giaibpt(float, float);
+void main()
+
+
+
+
+
+void giaibpt(float a, float b)
+{
+	if (a > 0) cout << "Nghiem x>" << -b / a;
+	else if (a < 0) cout << "Nghiem x<" << -b / a;
+	else if (b > 0) cout << "Vo so nghiem";
+	else cout << "Vo nghiem";
+}
